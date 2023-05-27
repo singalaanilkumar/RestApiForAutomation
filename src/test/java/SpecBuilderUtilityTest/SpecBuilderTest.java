@@ -53,7 +53,7 @@ public class SpecBuilderTest {
         
 
 
-        /* this second approach for the getting response using spec builders */
+        /** this second approach for the getting response using spec builders */
         RequestSpecification res = given().spec(requestspec)
                 .body(p);
 
